@@ -27,8 +27,15 @@ total_radiation_arr = total_radiation[total_radiation.notnull()].tolist()
 print("\n",total_radiation_arr)
 
 
-gui = coordinates_input_GUI()
-location = gui.get_location()
+# gui = coordinates_input_GUI()
+# location = gui.get_location()
+def get_location():
+    gui = coordinates_input_GUI()
+    gui.window.mainloop()
+    return gui.location
+
+if __name__ == "__main__":
+    location = get_location()
 
 
 #calling the training model file
