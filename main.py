@@ -6,7 +6,7 @@ from coordinates_input_GUI import coordinates_input_GUI
 
 
 # Read the CSV file into a pandas DataFrame with the correct encoding
-HM_measurements_df = pd.read_csv('HM_small_codenames.csv', encoding= 'UTF-8')
+HM_measurements_df = pd.read_csv('HM_small_codenames.csv', encoding= 'UTF-8 ')
 
 # Convert the DataFrame to a NumPy array
 arr = HM_measurements_df.to_numpy()
