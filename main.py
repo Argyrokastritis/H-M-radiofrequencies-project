@@ -1,5 +1,4 @@
 import pandas as pd
-import PySimpleGUI as sg
 from map_creation import map_creation
 from model_training import model_training
 from coordinates_input_GUI import coordinates_input_GUI
