@@ -46,26 +46,3 @@ prediction = model_trainer.train_model()
 #calling map_creation.py constructor
 map_creator = map_creation(location, coordinates_arr, prediction)
 map_creator.create_map()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -56,5 +56,3 @@ class map_creation:
         # Open the HTML file in a browser automatically
         url = 'file://' + os.path.realpath('Radiation.html')
         webbrowser.open(url)
-
-

@@ -55,11 +55,3 @@ def get_location():
 
 if __name__ == "__main__":
     location = get_location()
-
-
-
-
-
-
-
-

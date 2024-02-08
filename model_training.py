@@ -22,6 +22,3 @@ class model_training:
         print('\n\nThe estimated radiation for these coordinates is',prediction)
 
         return prediction
-
-
-
