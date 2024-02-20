@@ -5,7 +5,7 @@ a = Analysis(
     ['main.py'],
     pathex=[],
     binaries=[],
-    datas=[],
+    datas=[('HM_small_codenames.csv', '.'), ('earth.png', '.'), ('requirements.txt', '.')],  # Add your files here
     hiddenimports=[],
     hookspath=[],
     hooksconfig={},

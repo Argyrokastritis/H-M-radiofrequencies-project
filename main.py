@@ -16,14 +16,14 @@ coordinates_df.dropna(inplace=True)
 # Convert the DataFrame to a NumPy array
 coordinates_arr = coordinates_df.to_numpy()
 # Print the shape of the array
-print(coordinates_arr.shape)
+#print(coordinates_arr.shape)
 # Print the array
-print("\n", coordinates_arr)
+#print("\n", coordinates_arr)
 
 
 total_radiation = HM_measurements_df.iloc[:, 0]
 total_radiation_arr = total_radiation[total_radiation.notnull()].tolist()
-print("\n",total_radiation_arr)
+#print("\n",total_radiation_arr)
 
 
 # gui = coordinates_input_GUI()
